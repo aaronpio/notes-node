@@ -8,3 +8,5 @@ const os = require('os');
 var user = os.userInfo();
 
 fs.appendFileSync('greetings.txt', `hello ${user.username} you tool`);
+
+//code
